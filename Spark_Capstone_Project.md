@@ -102,19 +102,19 @@ root
 在明确定义了顾客流失的特征指标后，为了直观地观察顾客忠诚度表现，项目对如下四方面的数据进行了可视化分析：
 
 1. 顾客所听歌曲数目分析
-![image](https://github.com/isaackoala/Sparkify_Project/blob/master/Life.png style = "zoom:150%")
+    ![image](https://github.com/isaackoala/Sparkify_Project/blob/master/Life.png )
    
    如图所示，选择继续使用Spariky的用户和选择不再使用的用户在所听的歌曲数目上差异并不大。但很明显女性的忠诚度更为高一些，而同时女性的用户的听歌数量分布也更为广些，有一二百首的，也有超过8000首的。
 
 2. 顾客选择注销可能性分析
 
-   <img src="\C:\Users\Isaac\Pictures/Likeness.png" alt="Alt text" style="zoom:150%;" />
+   ![image](https://github.com/isaackoala/Sparkify_Project/blob/master/Likeness.png)
 
    如图所示，Sparkify成功地赢得了大多数用户的青睐和喜爱，并选择继续接受服务。在选择注销的用户中男性数量比女性数量多了近三成以上。这说明Sparkify在运营中依然无法完成赢得一小部分用户的喜爱，尤其是男性用户。至于这部分用户的是何原因选择离开，由于缺乏相关数据，目前很难确定。需要进一步采集用户反馈获得。
 
 3. 付费与免费用户分析
 
-   <img src="\C:\Users\Isaac\Pictures/Paid.png" alt="Alt text" style="zoom:150%;" />
+   ![image](https://github.com/isaackoala/Sparkify_Project/blob/master/Paid.png)
 
    如图所示，在付费与免费两大用户中，有更多的付费用户选择注销停止接受Sparkify的音乐服务。这里就存在一个值得探讨的问题，为什么会有更多的付费用户选择停止接受服务呢？虽然目前没有更多用户信息以兹证明，但可以推测的是，付费用户普遍对Sparkify所提供的服务有着更高的要求。因此值得思考的是Sparkify可以提供哪些对于付费用户来说极有价值的服务，使他们对此认可并欣然愿意继续支付比免费用户更多的费用来享受会员服务呢？可考虑进一步反馈信息的探索，也可对付费用户的音乐喜欢进行分析研究。
 
