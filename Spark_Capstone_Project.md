@@ -102,9 +102,8 @@ root
 在明确定义了顾客流失的特征指标后，为了直观地观察顾客忠诚度表现，项目对如下四方面的数据进行了可视化分析：
 
 1. 顾客所听歌曲数目分析
-
-   <img src="\C:\Users\Isaac\Pictures/NumbersOfSongsListend.png" alt="Alt text" style="zoom:150%;" />
-
+![image](https://github.com/isaackoala/Sparkify_Project/blob/master/Life.png style = "zoom:150%")
+   
    如图所示，选择继续使用Spariky的用户和选择不再使用的用户在所听的歌曲数目上差异并不大。但很明显女性的忠诚度更为高一些，而同时女性的用户的听歌数量分布也更为广些，有一二百首的，也有超过8000首的。
 
 2. 顾客选择注销可能性分析
