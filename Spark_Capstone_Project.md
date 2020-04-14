@@ -32,23 +32,23 @@
 
 1. **准确率**是一种常见的二分类指标。其定义如下：	
 
-    Accuracy = \frac{True Positives + True Negatives}{dataset size}
+    Accuracy = (True Positives + True Negatives)/dataset size
 
 ​		准确率指标可直接反映出顾客流失或不流失的状态，是非		常有效的评价指标。但对于正负样本不均衡的情况，会出		现评价不准确。
 
  2. **F1值**被用来弥补解决准确率存在的欠缺问题。其定义如下：
  
-    P = \frac{True Positives}{True Positves *
-    False Positives }
+    P = True Positives/True Positves *
+    False Positives 
     
 
    
-    R = \frac{True Positives}{True Positives*False Negatives
-    }
+    R = True Positives/True Positives*False Negatives
+    
     
 
     
-    F1 = \frac{2PR}{P+R}
+    F1 = 2PR/(P+R)
     
 
     F1值对精确率P和召回率R进行了加权调和平均，既考虑到查准率又考虑到了查全率，以此来评价模型实际的效果可降低正负样本不均衡所带来的影响，得到理想的效果。
