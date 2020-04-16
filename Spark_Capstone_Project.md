@@ -35,19 +35,12 @@
 
 **F1得分**也被称为平衡**F得分**或叫**F测试**。其定义如下：
  
-    P = True Positives/True Positves *
-    False Positives 
-    
-
+    $$ P = True Positives/True Positves * False Positives $$ 
    
-    R = True Positives/True Positives*False Negatives
-    
-    
+    $$ R = True Positives/True Positives*False Negatives $$ 
 
+    $$ F1 = 2PR/(P+R)￥￥ $$
     
-    F1 = 2PR/(P+R)
-    
-
 F1得分被表达为精确率P和召回率R的加权调和平均数，F1得分为1时，模型为最佳模型，反之亦然。它既考虑到查准率又考虑到了查全率，以此来评价模型实际的效果可降低正负样本不均衡所带来的影响，得到理想的效果。
 
 本项目是典型的二分类问题。但经过初步数据探索发现，本项目数据集为非常明显不平衡分类，即分类数据中顾客流失与未流失数据存在着巨大的差异：只有很少部分的用户最终选择注销用户，停止使用Sparkify音乐平台提供的服务。在这种情况下，我们通常所使用来评价分类模型优劣的指标就显得不那么有效了。比如像准确率，即True Positives/dataset size。即使准确率获得很高的值时，由于真正选择注销的用户相对总量来说很少，这样的高准确率依然无法高效准确地反映出顾客的真实流失情况。此时往往会因为高准确率而忽视了没有被真实确定的流失顾客，更不要说对此进行商业策略的调整。
